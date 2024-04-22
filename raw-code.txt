@@ -1,0 +1,4 @@
+async function getMessageAsync() {
+    const content = fs.readFileSync('./my-content.txt');
+    return { message: content };
+}
